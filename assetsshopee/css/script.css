@@ -1,0 +1,18 @@
+.js__display-block {
+    display: block;
+}
+.js__display-inline-block {
+    display: inline-block;
+}
+.js__display-flex {
+    display: flex;
+}
+.js__display-inline-flex {
+    display: inline-flex;
+}
+.display-none {
+    display: none !important;
+}
+.js__close {
+    display: none;
+}
