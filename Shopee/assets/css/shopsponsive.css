@@ -1,0 +1,207 @@
+/* Mobile */
+@media (max-width:739px) {
+    .display-none-c {
+        display: none;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .home-product__pagination {
+        margin: 24px 0;
+    }
+    .pagintaion-item {
+        margin: 0 6px;
+    }
+    .pagination-item__link {
+        font-size: 1.4rem;
+        min-width: 28px;
+        height: 28px;
+    }
+    :root {
+        --height-header-tablet: 48px;
+    }
+    .header {
+        height: var(--height-header-tablet);
+    }
+    .header-with-search {
+        height: var(--height-header-tablet);
+    }
+    .header__logo {
+        position: relative;
+        top: -2px;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__logo-link {
+        display: flex;
+        align-items: center;
+    }
+    .header__logo-img {
+        width: 100px;
+    }
+    .header__search-history {
+        top: 40px;
+        width: 120%;
+    }
+    .header__search-btn {
+        width: 54px;
+    }
+    .header__cart {
+        width: 46px;
+    }
+    .header__cart-list {
+        padding-left: 16px;
+    }
+    .header__cart-icon {
+        font-size: 2.2rem;
+        margin-top: 2px;
+    }
+    .header__cart-notice {
+        position: absolute;
+        top: 3px;
+        right: 9px;
+        padding: 1px 5px;
+        color: var(--primary-color);
+        background-color: unset;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        border-radius: unset;
+        border: unset;
+    }
+    .header-tablet {
+        top: 48px;
+        height: 40px;
+    }
+    .header__menu-icon div {
+        width: 22px;
+        height: 3px;
+        margin: 4px 10px;
+    }
+    /* App__container code section */
+    .app__container {
+        margin-top: 46px;
+    }
+    .catatablet {
+        margin-bottom: 5px;
+    }.catatablet-item {
+        margin-right: 5px;
+        line-height: 1.8rem;
+    }
+    .home-product-item {
+        margin-top: 0;
+    }
+    .header__sidebar-body {
+        width: 100%;
+    }
+    .header__sidebar-body.animation-close {
+        width: 100%;
+    }
+    /* Search mobile code section */
+    .header__search {
+        z-index: 2;
+        position: fixed;
+        top: 48px;
+        left: 0;
+        right: 0;
+    }
+    .pagination-item {
+        margin: 0 4px;
+    }
+    /* Footer code section */
+    .footer__heading {
+        text-align: center;
+    }
+    .footer-item {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__download {
+        justify-content: center;
+    }
+    .footer__download-apps {
+        flex: 0;
+    }
+    .footer__download-app-img {
+        margin: 4px 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .display-none-m {
+        display: none;
+    }
+    :root {
+        --height-header-tablet: 68px;
+    }
+    .header {
+        height: var(--height-header-tablet);
+    }
+    .header__logo {
+        display: none;
+    }
+    .header-with-search {
+        padding: 0;
+        height: var(--height-header-tablet);
+    }
+    .header__cart {
+        width: 66px;
+    }
+    .header__cart-list {
+        width: 650px;
+    }
+    .header__cart-item-name {
+        width: 300px;
+    }
+    .header__menu-icon div {
+        width: 26px;
+        height: 4px;
+        margin: 4px 20px;
+    }
+    /* App__content code section */
+    .app__content {
+        padding-top: 0;
+        margin-top: 116px;
+    }
+    .home-product__pagination {
+        margin: 24px 0;
+    }
+}
+
+/* Pc */
+@media (min-width: 1024px) {
+    .display-none-pc {
+        display: none;
+    }
+}
+
+/* Mobile and Talet */
+@media (max-width: 1023px) {
+    .display-none-m-c {
+        display: none;
+    }
+    .header {
+        z-index: 3;
+        border-bottom: 1px solid var(--border-color);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .header__menu-icon {
+        padding: 10px 0;
+    }
+    .header__menu-icon div {
+        background-color: #fff;
+        border-radius: 1px;
+    }
+    /* Header__cart code section */
+    .header__cart-list {
+        z-index: 3;
+    }
+    .header__cart-list::after {
+        display: none;
+    }
+}
